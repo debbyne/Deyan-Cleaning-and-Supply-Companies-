@@ -1,0 +1,113 @@
+.nav {
+    color: black;
+    display: inline;
+    font-size: 20px;
+    margin: 40px;
+    float: right;
+    text-decoration:none;
+    font-weight: bolder;
+    cursor: pointer;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration:underline ;
+    text-transform: uppercase;
+}
+ h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+ .image {
+    background-image:url(images1/concept.jpg);
+    background-size: cover;
+    height: 100vh;
+ }
+.header {
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 200px;
+    padding-top: 400px;
+}
+
+.contact{
+    font-style: poppins;
+    outline: none;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: blue;
+    justify-content: space-around;
+    border-radius: 50px;
+    }
+.text{
+    color: white;
+    font-size: 20px;
+    margin-top: 80px;
+   
+}
+.container{
+    height: 550px;
+    width: 510px;
+    background-color: white;
+    margin-top: 80px;
+    padding-left:40px;
+    box-shadow: 0px 0px 0px 0.3px;
+} 
+.container>h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+.container,.input_place{
+ margin-bottom: 15px;   
+}
+.container .input_place input[type="text"],.cont textarea{
+    width: 420px;
+    border: 1px solid black;
+    padding: 15px;
+}
+.container textarea{
+    height: 80px;
+    width: 445px;
+    resize: none;
+}
+#error{
+ background-color: yellow; 
+ font-size: bold;
+ padding: 10px;
+ margin-bottom: 5px; 
+ width: 85%;
+ text-align: center;
+
+}
+.container .buttn input[type="submit"]{
+    border: 0;
+    padding: 15px;
+    margin-top: 20px;
+    width: 280px;
+    margin-left:100px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.copy {
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+}
+.footer {
+    font-style: normal;
+    font-size: 20px;
+    text-align: right;
+  }
