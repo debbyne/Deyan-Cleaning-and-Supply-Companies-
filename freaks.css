@@ -1,0 +1,55 @@
+.head {
+    background-color: rgb(222, 224, 211);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo_img {
+    height: 60px;
+  }
+  .logo {
+    display: flex;
+  }
+  .logo span {
+    color: rgb(96, 184, 211);
+  }
+  .nav ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(34, 27, 27);
+    list-style:none;
+  
+  }
+  .nav ul li{
+      word-spacing: 10px;
+  }
+  .main{
+      height: 750px;
+      background-image: url(Images/cean1.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+          
+  }
+  .par{
+     color: rgb(10, 8, 10);
+  font-size: xx-large;
+  font-style: oblique;
+  display: block;
+  text-align: center;
+  padding-top: 350px;
+  }
+  .footer__footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  color: rgb(131, 142, 143);
+    padding: 2rem 1rem 1rem;
+  }
+  
+  .foot_img {
+    margin: 0 1rem;
+    height: 2rem;
+  }
