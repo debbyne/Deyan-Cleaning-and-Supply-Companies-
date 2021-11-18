@@ -1,0 +1,57 @@
+ .nav {
+    color: black;
+    display: inline; 
+    font-size: 20px; 
+    margin: 40px;
+    float: right; 
+    text-decoration:none; 
+    font-weight: bolder;
+    cursor: pointer;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;  
+}
+
+
+h1 { 
+    font-size: 25px;
+    font-weight: bold; 
+    text-decoration:underline ;
+    text-transform: uppercase;
+}
+
+ h3 {
+    font-size: 20px;
+    font-weight: normal;
+} 
+
+ .image {
+    background-image:url(images2/concept.jpg);
+    background-size: cover;
+    height: 100vh;
+
+ }
+ 
+.header {
+    font-style: normal;
+    font-size: 20px;
+    text-align: left; 
+    margin-bottom: 200px;
+    padding-top: 400px; 
+}
+  
+.copy {
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+}
+.footer {
+    font-style: normal;
+    font-size: 20px;
+    text-align: right; 
+  }
+ 
+
