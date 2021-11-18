@@ -1,9 +1,8 @@
 # Deyan-Cleaning-and-Supply-Companies-
 This is Deyan Cleaning and Supply Companies website designed on the 18/11/2021 by four pair programmers namely:Debbyne Kinya,Njeri Gathuku, Ian Otieno and Martin Omollo
-.
-## Description
-This is a website that shows designed  Modern Deyan Cleaning and Supply Companies.It comprises  of all information on a project that We have worked on and the experience gained.
 
+## Description
+This is Deyan Cleaning and Supplies website. It links various clients with supplies and cleaning staff. It provides an avenue where Deyan cuustomers can reach others via email.
 ## setup/installation
 Click on the link  bellow to view the site;
 ## Todo list
