@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact form </title>
+</head>
+<body>
+    <div class="contact">
+        <div class="text">
+            <h2>Contact Us</h2>
+            <p>Here is the easiest way to reach us, Write us message<br>
+             We will get back</p>
+            <h2>Address</h2>
+            <p>P.O BOX 47131-00200<br>
+            Nairobi, Kenya</p>
+            <h2>Phone</h2>
+            <p>020-316-0464</p>
+            <h2>Email</h2>
+            <p>info@deyancleaningandsupply.co.ke</p>
+        </div>
+      <div class="container">
+          <h2>Contact Us</h2>
+          <div id="error"></div>
+          <form id="form" onsubmit="return validation ()">
+              <div class="input_place">
+                  <input type="text" placeholder="Name" id="name">
+              </div>
+              <div class="input_place">
+                <input type="text" placeholder="Subject" id="subject">
+            </div>
+            <div class="input_place">
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+            <div class="input_place">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input_place">
+                <textarea type="text" placeholder="Message" id="message" ></textarea>
+            </div>
+            <div class="buttn">
+                <input type="submit" id="submit">
+            </div>
+
+          </form>
+      </div>
+
+</body>
+<script src="scripts.js"></script>
+</html>   
